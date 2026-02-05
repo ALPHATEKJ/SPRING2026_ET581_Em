@@ -1,15 +1,19 @@
 public class Exersice4 {
     
-public static void main(String[] args) {
-    
-
-String s1 = "hello julio";
-String s2 = String.format(s1,"hello julio") ;
-
-System.out.println(s2.toUpperCase());
+    public static void exersice4(String x) { 
+            
 
 
+        //String s2 = String.format(s1,"hello julio") ;
 
-}
+        System.out.println(x.toUpperCase());
+
+
+    }
+    public static void main(String[] args) {
+        
+        exersice4("hello julio");
+
+    }
 
 }
